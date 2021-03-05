@@ -1,29 +1,5 @@
-// import React from "react"
-// import { Link } from "react-router-dom"
-// import "./NavBar.css"
 
-// export const NavBar = (props) => {
-//     return (
-//         <ul className="navbar">
-//             <li className="navbar__item active">
-//                 <Link className="navbar__link" to="/">Kyzen</Link>
-//             </li>
-//             <li className="navbar__item">
-//                 <Link className="navbar__link" to="/animals">Touch Screen</Link>
-//             </li>
-//             <li className="navbar__item">
-//                 <Link className="navbar__link" to="/customers">Display</Link>
-//             </li>
-//             <li className="navbar__item">
-//                 <Link className="navbar__link" to="/employees">Data</Link>
-//             </li>
-//             <li className="navbar__item">
-//                 <Link className="navbar__link" to="/logout">Logout</Link>
-//             </li>
-//         </ul>
-//     )
-// }
-
+import logo from '../img/logo.jpg'
 import {Button} from 'reactstrap'
 import React, { useState } from 'react';
 import {
@@ -49,7 +25,14 @@ export const NavBar = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Kyzen</NavbarBrand>
+      
+        <NavbarBrand href="/"><img
+        src={logo}
+        width="200"
+        height="100"
+        className="d-inline-block align-top"
+        alt="Kyzen Logo"
+      /></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

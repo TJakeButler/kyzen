@@ -9,6 +9,9 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
+    "react-simple-keyboard": "^2.5.169",
+    "react-virtual-keyboard": "^1.0.2",
+    "simple-keyboard": "^2.32.119",
     "web-vitals": "^1.1.0"
   },
   "scripts": {

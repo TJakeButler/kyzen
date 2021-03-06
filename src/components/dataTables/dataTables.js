@@ -6,8 +6,8 @@ export const DataTable = (props) => {
     <Table size="sm"hover>
       <thead>
         <tr>
-          <th>Temp</th>
-          <th>Conc</th>
+          <th>Current Temp Reading: Normal Range (40 - 50) </th>
+          <th>Current Conc Reading: Normal Range (12 - 17)</th>
           
         </tr>
       </thead>

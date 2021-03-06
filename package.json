@@ -15,6 +15,7 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-select": "^4.2.1",
     "react-simple-keyboard": "^2.5.169",
     "react-virtual-keyboard": "^1.0.2",
     "reactstrap": "^8.9.0",
